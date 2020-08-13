@@ -40,22 +40,24 @@ De uma forma geral, o segredo está em incluir o Rellax e aplicar suas funcional
 
 ```html
 <script>
-  let rellax = new Rellax('.rellax');
+  let rellax = new Rellax(".rellax");
 </script>
 ```
+
 Dessa forma, todas as nossas classes `rellax` está aptas a ter os efeitos da biblioteca Rellax.js.
 Por meio da propriedade `html data-rellax-speed` podemos definir a velocidade que queremos e ver todo o efeito acontecendo.
 
-``` html 
+```html
 <div class="rellax" data-rellax-speed="4" data-rellax-xs-speed="3">
   <i class="fas fa-users fa-3x secondary-text"></i>
   <h2>Share<span class="secondary-text dot">.</span></h2>
   <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore et
-      dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore et dicta
+    consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
   </p>
 </div>
 ```
+
 # Tecnologias
 
 - HTML
@@ -69,7 +71,7 @@ https://www.youtube.com/watch?v=aAxt0Z7IXIo
 
 ## Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/nathaliacristina20/gorestaurant/blob/master/LICENSE">LICENSE</a> para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/yuripalacio/parallax-landing-page/blob/master/LICENSE">LICENSE</a> para mais detalhes.
 
 <hr />
 
